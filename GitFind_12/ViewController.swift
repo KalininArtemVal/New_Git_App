@@ -10,7 +10,11 @@ import Kingfisher
 
 class ViewController: UIViewController {
     
-    private let logo = URL(string:"https://avatars.mds.yandex.net/get-zen_doc/225409/pub_5bf04238a76bb400aefdd6a1_5bf0479ae74e5400aad12c1d/scale_1200")
+    private let logo = URL(string: "https://yastatic.net/weather/i/icons/blueye/color/svg/bkn_n.svg")
+    
+//    "https://avatars.mds.yandex.net/get-zen_doc/225409/pub_5bf04238a76bb400aefdd6a1_5bf0479ae74e5400aad12c1d/scale_1200"
+    
+    
     
     lazy var lableGitHub: UIImageView = {
         let imageView = UIImageView()
