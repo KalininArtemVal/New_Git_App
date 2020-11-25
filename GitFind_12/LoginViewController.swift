@@ -8,9 +8,9 @@
 import UIKit
 import Kingfisher
 
-class ViewController: UIViewController {
+class LoginViewController: UIViewController {
     
-    private let logo = URL(string:"https://avatars.mds.yandex.net/get-zen_doc/225409/pub_5bf04238a76bb400aefdd6a1_5bf0479ae74e5400aad12c1d/scale_1200")
+    private let logo = URL(string: "https://avatars.mds.yandex.net/get-zen_doc/225409/pub_5bf04238a76bb400aefdd6a1_5bf0479ae74e5400aad12c1d/scale_1200")
     
     lazy var lableGitHub: UIImageView = {
         let imageView = UIImageView()
@@ -67,8 +67,8 @@ class ViewController: UIViewController {
     
     @objc func tapOn() {
         let vc = SearchViewController()
-        present(vc, animated: true, completion: nil)
-//        self.navigationController?.pushViewController(vc, animated: true)
+//        present(vc, animated: true, completion: nil)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     // Logo
