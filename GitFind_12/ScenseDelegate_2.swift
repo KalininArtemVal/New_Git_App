@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  GitFind_12
+//  Weather
 //
-//  Created by Калинин Артем Валериевич on 21.10.2020.
+//  Created by Калинин Артем Валериевич on 22.11.2020.
 //
 
 import UIKit
@@ -13,10 +13,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard let winScene = (scene as? UIWindowScene) else { return }
-        window = UIWindow(windowScene: winScene)
-        window?.rootViewController = ViewController()
-        window?.makeKeyAndVisible()
+        if let windowScene = scene as? UIWindowScene {
+            let window = UIWindow(windowScene: windowScene)
+            let navController = UINavigationController()
+            let viewController = LoginViewController()
+            navController.viewControllers = [viewController]
+            window.rootViewController = navController
+            self.window = window
+            window.makeKeyAndVisible()
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

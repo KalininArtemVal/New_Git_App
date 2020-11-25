@@ -9,16 +9,17 @@
 /* Begin PBXBuildFile section */
 		3B2B25CE2D9D7CC484575C81 /* Pods_GitFind_12_GitFind_12UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C518DCB5620F9357E9A783E /* Pods_GitFind_12_GitFind_12UITests.framework */; };
 		3B61AEF625917A2996D4D664 /* Pods_GitFind_12Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02322A99112638AE1BEC820F /* Pods_GitFind_12Tests.framework */; };
-		571A6C1F2540AA5500E6662D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571A6C1E2540AA5500E6662D /* AppDelegate.swift */; };
-		571A6C212540AA5500E6662D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571A6C202540AA5500E6662D /* SceneDelegate.swift */; };
-		571A6C232540AA5500E6662D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571A6C222540AA5500E6662D /* ViewController.swift */; };
 		571A6C262540AA5500E6662D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 571A6C242540AA5500E6662D /* Main.storyboard */; };
 		571A6C282540AA5700E6662D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571A6C272540AA5700E6662D /* Assets.xcassets */; };
 		571A6C2B2540AA5700E6662D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 571A6C292540AA5700E6662D /* LaunchScreen.storyboard */; };
-		571A6C662540D80300E6662D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571A6C652540D80300E6662D /* SearchViewController.swift */; };
-		571A6C732541D0C100E6662D /* RepoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571A6C722541D0C100E6662D /* RepoViewController.swift */; };
-		571A6C7C2541FF7200E6662D /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571A6C7B2541FF7100E6662D /* RepoTableViewCell.swift */; };
 		571A6C8325421A3B00E6662D /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571A6C8225421A3A00E6662D /* Struct.swift */; };
+		57A2067D256EA5F700B4F61D /* AppDelegate_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A2067C256EA5F700B4F61D /* AppDelegate_2.swift */; };
+		57A20685256EA65500B4F61D /* ScenseDelegate_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A20684256EA65500B4F61D /* ScenseDelegate_2.swift */; };
+		57A2068D256EA76000B4F61D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A2068C256EA76000B4F61D /* LoginViewController.swift */; };
+		57A20699256EA7CA00B4F61D /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A20698256EA7CA00B4F61D /* RootViewController.swift */; };
+		57A2069F256EA8B600B4F61D /* SearchViewController_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A2069E256EA8B600B4F61D /* SearchViewController_2.swift */; };
+		57A206A9256EB5D900B4F61D /* RepoViewController_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A206A8256EB5D900B4F61D /* RepoViewController_2.swift */; };
+		57A206B1256EB5FF00B4F61D /* RepoTableViewCell_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A206B0256EB5FF00B4F61D /* RepoTableViewCell_2.swift */; };
 		57AE816A2550786900440CE9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AE81692550786900440CE9 /* NetworkManager.swift */; };
 		737048B2D44A9386C8F1283E /* Pods_GitFind_12.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A812102AFB0B2D1D6597DBFF /* Pods_GitFind_12.framework */; };
 /* End PBXBuildFile section */
@@ -45,19 +46,20 @@
 		1D11BA72D335D4A7CB6E6D04 /* Pods-GitFind_12-GitFind_12UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitFind_12-GitFind_12UITests.release.xcconfig"; path = "Target Support Files/Pods-GitFind_12-GitFind_12UITests/Pods-GitFind_12-GitFind_12UITests.release.xcconfig"; sourceTree = "<group>"; };
 		3FE0EA32FC138FD13FD3ECA6 /* Pods-GitFind_12-GitFind_12UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitFind_12-GitFind_12UITests.debug.xcconfig"; path = "Target Support Files/Pods-GitFind_12-GitFind_12UITests/Pods-GitFind_12-GitFind_12UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		571A6C1B2540AA5500E6662D /* GitFind_12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitFind_12.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		571A6C1E2540AA5500E6662D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		571A6C202540AA5500E6662D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		571A6C222540AA5500E6662D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		571A6C252540AA5500E6662D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		571A6C272540AA5700E6662D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		571A6C2A2540AA5700E6662D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		571A6C2C2540AA5700E6662D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		571A6C312540AA5700E6662D /* GitFind_12Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitFind_12Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		571A6C3C2540AA5700E6662D /* GitFind_12UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitFind_12UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		571A6C652540D80300E6662D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		571A6C722541D0C100E6662D /* RepoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoViewController.swift; sourceTree = "<group>"; };
-		571A6C7B2541FF7100E6662D /* RepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
 		571A6C8225421A3A00E6662D /* Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
+		57A2067C256EA5F700B4F61D /* AppDelegate_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate_2.swift; sourceTree = "<group>"; };
+		57A20684256EA65500B4F61D /* ScenseDelegate_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenseDelegate_2.swift; sourceTree = "<group>"; };
+		57A2068C256EA76000B4F61D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		57A20698256EA7CA00B4F61D /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		57A2069E256EA8B600B4F61D /* SearchViewController_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController_2.swift; sourceTree = "<group>"; };
+		57A206A8256EB5D900B4F61D /* RepoViewController_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoViewController_2.swift; sourceTree = "<group>"; };
+		57A206B0256EB5FF00B4F61D /* RepoTableViewCell_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell_2.swift; sourceTree = "<group>"; };
 		57AE81692550786900440CE9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		5C518DCB5620F9357E9A783E /* Pods_GitFind_12_GitFind_12UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitFind_12_GitFind_12UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7A72DDC3BE27723B5729AA /* Pods-GitFind_12Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitFind_12Tests.debug.xcconfig"; path = "Target Support Files/Pods-GitFind_12Tests/Pods-GitFind_12Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,13 +120,11 @@
 		571A6C1D2540AA5500E6662D /* GitFind_12 */ = {
 			isa = PBXGroup;
 			children = (
-				571A6C1E2540AA5500E6662D /* AppDelegate.swift */,
-				571A6C202540AA5500E6662D /* SceneDelegate.swift */,
-				571A6C222540AA5500E6662D /* ViewController.swift */,
+				57A2069D256EA89D00B4F61D /* Controllers */,
+				57A2067B256EA5E400B4F61D /* Supports_Files */,
+				57A2068A256EA73600B4F61D /* Login */,
 				57AE81682550784900440CE9 /* Network */,
 				571A6C8125421A0900E6662D /* Models */,
-				571A6C712541D07400E6662D /* Repositories */,
-				571A6C612540D7DE00E6662D /* Search */,
 				571A6C242540AA5500E6662D /* Main.storyboard */,
 				571A6C272540AA5700E6662D /* Assets.xcassets */,
 				571A6C292540AA5700E6662D /* LaunchScreen.storyboard */,
@@ -133,29 +133,56 @@
 			path = GitFind_12;
 			sourceTree = "<group>";
 		};
-		571A6C612540D7DE00E6662D /* Search */ = {
-			isa = PBXGroup;
-			children = (
-				571A6C652540D80300E6662D /* SearchViewController.swift */,
-			);
-			name = Search;
-			sourceTree = "<group>";
-		};
-		571A6C712541D07400E6662D /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-				571A6C722541D0C100E6662D /* RepoViewController.swift */,
-				571A6C7B2541FF7100E6662D /* RepoTableViewCell.swift */,
-			);
-			name = Repositories;
-			sourceTree = "<group>";
-		};
 		571A6C8125421A0900E6662D /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				571A6C8225421A3A00E6662D /* Struct.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		57A2067B256EA5E400B4F61D /* Supports_Files */ = {
+			isa = PBXGroup;
+			children = (
+				57A2067C256EA5F700B4F61D /* AppDelegate_2.swift */,
+				57A20684256EA65500B4F61D /* ScenseDelegate_2.swift */,
+				57A20698256EA7CA00B4F61D /* RootViewController.swift */,
+			);
+			name = Supports_Files;
+			sourceTree = "<group>";
+		};
+		57A2068A256EA73600B4F61D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				57A2068C256EA76000B4F61D /* LoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		57A2069D256EA89D00B4F61D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				57A206A7256EB5AC00B4F61D /* Repositories */,
+				57A206A6256EA8EC00B4F61D /* Search */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		57A206A6256EA8EC00B4F61D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				57A2069E256EA8B600B4F61D /* SearchViewController_2.swift */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		57A206A7256EB5AC00B4F61D /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				57A206A8256EB5D900B4F61D /* RepoViewController_2.swift */,
+				57A206B0256EB5FF00B4F61D /* RepoTableViewCell_2.swift */,
+			);
+			name = Repositories;
 			sourceTree = "<group>";
 		};
 		57AE81682550784900440CE9 /* Network */ = {
@@ -427,14 +454,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				571A6C232540AA5500E6662D /* ViewController.swift in Sources */,
-				571A6C1F2540AA5500E6662D /* AppDelegate.swift in Sources */,
-				571A6C662540D80300E6662D /* SearchViewController.swift in Sources */,
-				571A6C732541D0C100E6662D /* RepoViewController.swift in Sources */,
+				57A20699256EA7CA00B4F61D /* RootViewController.swift in Sources */,
+				57A206A9256EB5D900B4F61D /* RepoViewController_2.swift in Sources */,
 				57AE816A2550786900440CE9 /* NetworkManager.swift in Sources */,
-				571A6C212540AA5500E6662D /* SceneDelegate.swift in Sources */,
+				57A20685256EA65500B4F61D /* ScenseDelegate_2.swift in Sources */,
+				57A206B1256EB5FF00B4F61D /* RepoTableViewCell_2.swift in Sources */,
 				571A6C8325421A3B00E6662D /* Struct.swift in Sources */,
-				571A6C7C2541FF7200E6662D /* RepoTableViewCell.swift in Sources */,
+				57A2067D256EA5F700B4F61D /* AppDelegate_2.swift in Sources */,
+				57A2069F256EA8B600B4F61D /* SearchViewController_2.swift in Sources */,
+				57A2068D256EA76000B4F61D /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
